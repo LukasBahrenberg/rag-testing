@@ -1,5 +1,7 @@
 .venv
 .env
+.deepeval
+.deepeval-cache.json
 
 # Azure az webapp deployment details
 .azure

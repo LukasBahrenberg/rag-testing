@@ -13,7 +13,11 @@ For cost-efficiency, some resources can in principal be shared between the two a
 
 In the data folder a sample PDF document with some longer tables is provided to resemble a test case.
 
-## query.py
+## query.py & eval.py
 
-The query.py script is used to query the Azure AI Search service with integrated vectorization directly. It runs four different kinds of queries: full-text, vector, hybrid and hybrid semantic
+You need to set the env variables in a `.env` file in order to run the Python scripts. See `.env.example` for the necessary variables.
+
+The `query.py` script is used to query the Azure AI Search service with integrated vectorization directly. It runs four different kinds of queries: full-text, vector, hybrid and hybrid semantic.
+
+The `eval.py` uses DeepEval in order to assign scores to the retrieval results. 
 
